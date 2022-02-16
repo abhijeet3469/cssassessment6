@@ -1,0 +1,325 @@
+
+body{
+    width: 100%;
+    background-image: url(shara_desert_720.jpg);
+    background-size:cover;
+}
+.nav{
+    float: right;
+    word-spacing: 50px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    color: white;
+    word-spacing: 50px;
+}
+#menu{
+    top: 25px;
+}
+#sahara{
+    color: white;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    top: 220px;
+    left: 150px;
+}
+.lorem{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    line-height: 25px;
+}
+#explore{
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: 130px;
+    left: 150px;
+}
+.pic1{
+    position: relative;
+    left: 900px;
+    bottom: 350px;
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 15px;
+}
+.western{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 610px;
+    left: 920px;
+}
+#p1{
+    color: aliceblue;
+    position: relative;
+    bottom: 620px;
+    left: 920px;
+}
+#p2{
+    color: aliceblue;
+    position: relative;
+    bottom: 620px;
+    left: 920px;
+}
+.pic3{
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 15px;
+}
+.pyramid{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 710px;
+    left: 920px;
+}
+#p3{
+    color: aliceblue;
+    position: relative;
+    bottom: 715px;
+    left: 920px;
+}
+#p4{
+    color: aliceblue;
+    position: relative;
+    bottom: 720px;
+    left: 920px;
+}
+/* card 2 */
+.pic2{
+    position: relative;
+    left: 1200px;
+    bottom: 1117px;
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 15px;
+}
+.ai{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 1375px;
+    left: 1220px;
+}
+#p5{
+    color: aliceblue;
+    position: relative;
+    bottom: 1385px;
+    left: 1220px;
+}
+#p6{
+    color: aliceblue;
+    position: relative;
+    bottom: 1390px;
+    left: 1220px;
+}
+/* card4 */
+.pic4{
+    position: relative;
+    left: 1199px;
+    bottom: 1222px;
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 15px;
+}
+.kalahari{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 1483px;
+    left: 1220px;
+}
+#p7{
+    color: aliceblue;
+    position: relative;
+    bottom: 1482px;
+    left: 1220px;
+}
+#p8{
+    color: aliceblue;
+    position: relative;
+    bottom: 1486px;
+    left: 1220px;
+}
+.card1:hover{
+        transition: 0.5s;
+        box-sizing: border-box;
+        transform: translateY(-10px);
+        cursor: pointer;
+}
+@media screen and (max-width: 856px), screen and (max-height: 529px) {
+    body{
+        background-image: url(./shara_desert_720.jpg);
+        background-size: contain;
+        width: auto;
+        height: auto;
+    }
+    h1{
+        color: white;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: -180px;
+    left: -63px;
+}
+    .lorem{
+        color: white;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    left: -27px;
+    line-height: 25px;
+    }
+    #explore{
+        font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 194px;
+    height: 34px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: -12px;
+    left: 106px;
+    }
+    .pic1{
+        position: relative;
+    left: 183px;
+    bottom: -3px;
+    width: 452px;
+    height: 187px;
+    border: none;
+    border-radius: 10px;
+    }
+    .western{
+        color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 189px;
+    left: 214px;
+    }
+    #p1{
+        color: white;
+    position: relative;
+    bottom: 202px;
+    left: 217px;
+    }
+    #p2{
+        color: aliceblue;
+    position: relative;
+    bottom: 237px;
+    left: 369px;
+    }
+    .pic2{
+        position: relative;
+    left: 184px;
+    bottom: 416px;
+    width: 452px;
+    height: 187px;
+    border: none;
+    border-radius: 10px;
+    }
+    .ai{
+        color: white;
+    position: relative;
+    bottom: 618px;
+    left: 206px;
+    }
+    #p5{
+        color: aliceblue;
+    position: relative;
+    bottom: 629px;
+    left: 206px;
+    }
+    #p6{
+        color: aliceblue;
+        position: relative;
+        bottom: 664px;
+        left: 355px;
+    }
+    .pic3{
+        position: relative;
+    left: 184px;
+    bottom: -127px;
+    width: 452px;
+    height: 187px;
+    border: none;
+    border-radius: 10px;
+    }
+    .pyramid{
+        color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 68px;
+    left: 215px;
+    }
+    #p3{
+        color: aliceblue;
+    position: relative;
+    bottom: 77px;
+    left: 215px;
+    }
+    #p4{
+        color: aliceblue;
+    position: relative;
+    bottom: 112px;
+    left: 367px;
+    }
+    .pic4{
+        position: relative;
+    left: 185px;
+    bottom: 289px;
+    width: 452px;
+    height: 187px;
+    border: none;
+    border-radius: 10px;
+    }
+    .kalahari{
+        color: white;
+        font-weight: bold;
+        position: relative;
+        bottom: 485px;
+        left: 214px;
+    }
+    #p7{
+        color: aliceblue;
+        position: relative;
+        bottom: 494px;
+        left: 215px;
+    }
+    #p8{
+        color: aliceblue;
+        position: relative;
+        bottom: 529px;
+        left: 365px;
+    }
+
+    
+}
